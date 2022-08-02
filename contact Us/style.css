@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+body
+{
+	background:#eff4fd;
+}
+
+.contact-us
+{
+	width: 250px;
+	background:#fff;
+	padding: 50px;
+	margin:100px auto;
+	border-radius: 30px;
+	position: relative;
+}
+
+.title h1
+{
+	clear: #535274;
+    margin-bottom:25px; 
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+
+.form,
+.form-item
+{
+	width: 100%;
+}
+
+
+.form-item .input
+{
+     width: 100%;
+     margin-bottom: 12px;
+     padding: 15px 40px;
+     box-sizing: border-box;
+     background:#ebeef1;
+     border:0;
+     outline: none;
+     border-radius: 30px;
+}
+
+
+
+.form-item .input
+{
+	width: 100%;
+	margin-bottom: 12px;
+	padding: 15px 40px;
+	box-sizing: border-box;
+	background:#ebeef1;
+	border:0;
+	outline: none;
+	border-radius: 30px;
+
+}
+.form-item .input.message
+{
+	height: 125px;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	padding: 15px;
+	resize: none;
+}
+
+
+
+.btn
+{
+	background:#827ffe;
+	text-align: center;
+	color: #fff;
+	padding: 12px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+
+
+
+
+.social-icons
+{
+	   position: absolute;
+	   bottom: -25px;
+	   left: 50%;
+	   transform: translateX(-50%);
+	   width: 200px;
+	   display: flex;
+	   justify-content: space-around;
+}
+
+
+
+.social-icons div
+{
+	width: 50px;
+	height: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.social-icons div .fab
+{
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	transform: translateX(-50%,-50%);
+	color: orange;
+}
+
+
+
+
+
+
+
+
+
